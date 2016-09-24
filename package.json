@@ -1,0 +1,27 @@
+{
+  "name": "--my-resume",
+  "version": "1.0.0",
+  "description": "Express+hbs+gulp = resume",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "song",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.13.4",
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylus": "^2.5.0",
+    "gulp-uglify": "^2.0.0",
+  }
+}

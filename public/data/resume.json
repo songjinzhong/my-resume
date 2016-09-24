@@ -1,0 +1,19 @@
+{
+	"title": "个人简历-宋进忠",
+	"header": {
+		"name": "宋进忠",
+		"job_descript": ["前端工程师","全栈工程师"],
+		"contact": {
+			"tel": "18251852781",
+			"email": "songjz.ecnu@gmail.com",
+			"github": {
+				"id": "songjinzhong",
+				"url": "https://github.com/songjinzhong"
+			},
+			"weibo": {
+				"id": "宋进忠",
+				"url": "http://weibo.com/3822969136"
+			}
+		}
+	}
+}
