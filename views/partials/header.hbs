@@ -1,9 +1,9 @@
 <header>
-	<section class="title">
+	<div class="title">
 		<h1>{{header.name}}</h1>
 		<span>{{descript header.job_descript}}</span>
-	</section>
-	<section class="contact">
+	</div>
+	<div class="contact">
 		{{#header.contact}}
 			<ul>
 				<li>{{tel}}</li>
@@ -14,7 +14,10 @@
 				<li>
 					<a href="{{weibo.url}}">{{weibo.id}}</a>
 				</li>
+				<li>
+					<a href="{{blog.url}}">{{blog.name}}</a>
+				</li>
 			</ul>
 		{{/header.contact}}
-	</section>
+	</div>
 </header>

@@ -12,7 +12,11 @@
 			},
 			"weibo": {
 				"id": "宋进忠",
-				"url": "http://weibo.com/3822969136"
+				"url": "http://weibo.com/songjinz"
+			},
+			"blog": {
+				"name": "我的博客",
+				"url": "http://yuren.space/blog"
 			}
 		}
 	}

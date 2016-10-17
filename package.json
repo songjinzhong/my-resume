@@ -12,7 +12,7 @@
   "author": "song",
   "license": "MIT",
   "dependencies": {
-    "express": "~4.13.4",
+    "express": "~4.13.4"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
@@ -23,5 +23,6 @@
     "gulp-rename": "^1.2.2",
     "gulp-stylus": "^2.5.0",
     "gulp-uglify": "^2.0.0",
+    "jshint": "^2.9.3"
   }
 }

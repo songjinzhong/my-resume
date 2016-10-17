@@ -78,7 +78,7 @@ gulp.task('hbs',function(){
 //监听文件变化
 gulp.task('watch',function(){
         gulp.watch(paths.gulpjs, ['scripts']);
-        gulp.watch(paths.stylus,['stylus']);
+        gulp.watch([paths.stylus, 'public/stylus/part/*.styl'],['stylus']);
         gulp.watch(["views/*.hbs","views/*/*.hbs"],['hbs']);
 });
 
