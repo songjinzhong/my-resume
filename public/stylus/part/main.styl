@@ -1,26 +1,62 @@
-.resume{
+.container{
   width 1000px
-  margin 0 auto
-  padding 30px 40px
+  margin 10px auto
+  box-shadow: 3px 3px 9px rgba(0,0,0,.2);
   & header{
-    background white
-    & .title{
-      float left
-      & h1{
-        color black
-        padding 5px 0
-        margin 5px 0
-        font-size 72px
+    overflow hidden
+    padding 30px 40px 15px 40px
+    background #484848
+    color white
+    & a{
+      color white
+      text-decoration none
+    }
+    & .top{
+      border-bottom 1px solid white
+      overflow hidden
+      & .title{
+        float left
+        & h1,& h2{
+          display inline-block
+        }
+        & h1{
+          padding 5px 0
+          font-size 72px
+          font-weight bold
+        }
+        & h2{
+          margin 5px 0
+          padding 5px 6px
+          font-weight 400
+          font-size 24px
+        }
       }
-      & h2{
-        margin 5px 0
-        padding 5px 6px
-        font-weight 400
-        font-size 24px
+      & .contact{
+        float right
+        & ul{
+          margin 0
+          line-height 1.2
+          padding-right 30px
+          text-align left
+          & li{
+            font-size 22px
+            list-style none
+          }
+        }
       }
     }
-    & .contact{
-      float right
+    & .bottom{
+      padding 10px 20px 0px 20px
+      & ul{
+        display flex
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        & li{
+          line-height 1.2
+          font-size 22px
+        }
+      }
     }
   }
 }

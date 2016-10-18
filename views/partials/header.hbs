@@ -1,23 +1,34 @@
 <header>
-	<div class="title">
-		<h1>{{header.name}}</h1>
-		<h2>{{descript header.job_descript}}</h2>
+	<div class="top">
+		<div class="title">
+			<h1>{{header.name}}</h1>
+			<h2>{{descript header.job_descript}}</h2>
+		</div>
+		<div class="contact">
+			{{#header.contact}}
+				<ul>
+					<li class="icon email">{{email}}</li>
+					<li class="icon phone">{{tel}}</li>
+					<li class="icon blog">
+						<a href="{{blog.url}}">{{blog.name}}</a>
+					</li>
+				</ul>
+			{{/header.contact}}
+		</div>
 	</div>
-	<div class="contact">
-		{{#header.contact}}
-			<ul>
-				<li>{{tel}}</li>
-				<li>{{email}}</li>
-				<li>
-					<a href="{{github.url}}">{{github.id}}</a>
-				</li>
-				<li>
-					<a href="{{weibo.url}}">{{weibo.id}}</a>
-				</li>
-				<li>
-					<a href="{{blog.url}}">{{blog.name}}</a>
-				</li>
-			</ul>
-		{{/header.contact}}
+	<div class="bottom">
+	{{#header.contact}}
+		<ul>
+			<li class="icon weibo">
+				<a href="{{weibo.url}}">{{weibo.id}}</a>
+			</li>
+			<li class="icon github">
+				<a href="{{github.url}}">{{github.id}}</a>
+			</li>
+			<li class="icon sf">
+				<a href="{{sf.url}}">{{sf.name}}</a>
+			</li>
+		</ul>
+	{{/header.contact}}
 	</div>
 </header>

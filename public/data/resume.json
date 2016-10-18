@@ -4,19 +4,23 @@
 		"name": "宋进忠",
 		"job_descript": ["前端工程师","全栈工程师"],
 		"contact": {
-			"tel": "18251852781",
+			"tel": " TEL / (+086)18251852781",
 			"email": "songjz.ecnu@gmail.com",
-			"github": {
-				"id": "songjinzhong",
-				"url": "https://github.com/songjinzhong"
+			"blog": {
+				"name": "blog / http://yuren.space",
+				"url": "http://yuren.space/blog"
 			},
 			"weibo": {
-				"id": "宋进忠",
+				"id": "weibo / songjinz",
 				"url": "http://weibo.com/songjinz"
 			},
-			"blog": {
-				"name": "我的博客",
-				"url": "http://yuren.space/blog"
+			"github": {
+				"id": "github / songjinzhong",
+				"url": "https://github.com/songjinzhong"
+			},
+			"sf": {
+				"name": "SegmentFault / songjz",
+				"url": "https://segmentfault.com/u/songjz"
 			}
 		}
 	}
