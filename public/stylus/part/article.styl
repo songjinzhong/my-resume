@@ -3,13 +3,17 @@
     height 1235px
     background #fff
     padding 30px 40px
-    & .education{
-      width 50%
+    & .education,& .personal{
+      display inline-block
+      width 49%
+    }
+    & .education,& .personal{
       & h2{
         font-size 21px
         border-bottom 1px dashed #adadad
         font-weight 700
         padding-bottom 4px
+        width 90%
         & span{
           font-size: 16px;
           color: teal;
@@ -28,6 +32,11 @@
           font-weight 600
           line-height 1.5
         }
+      }
+    }
+    & .personal{
+      .detail{
+        font-size 12px
       }
     }
   }

@@ -16,4 +16,17 @@
 		</ul>
 	</section>
 	{{/article.education}}
+	{{#article.personal}}
+	<section class="personal">
+		<h2>{{zh-CN}}<span>{{en}}</span></h2>
+		<ul>
+			<li>
+				<span>{{home.name}}</span>
+				<span>{{home.born}}</span>
+				<span>{{home.now}}</span>
+			</li>
+			<li class="detail">{{home.detail}}</li>
+		</ul>
+	</section>
+	{{/article.personal}}
 </article>
