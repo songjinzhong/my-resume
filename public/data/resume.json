@@ -4,23 +4,39 @@
 		"name": "宋进忠",
 		"job_descript": ["前端工程师","全栈工程师"],
 		"contact": {
-			"tel": " TEL / (+086)18251852781",
+			"tel": " TEL # (+086)18251852781",
 			"email": "songjz.ecnu@gmail.com",
 			"blog": {
-				"name": "blog / http://yuren.space",
+				"name": "BLOG # http://yuren.space",
 				"url": "http://yuren.space/blog"
 			},
 			"weibo": {
-				"id": "weibo / songjinz",
+				"id": "weibo / SongJinZ",
 				"url": "http://weibo.com/songjinz"
 			},
 			"github": {
-				"id": "github / songjinzhong",
+				"id": "github / SongJinZhong",
 				"url": "https://github.com/songjinzhong"
 			},
 			"sf": {
-				"name": "SegmentFault / songjz",
+				"name": "SegmentFault / SongJZ",
 				"url": "https://segmentfault.com/u/songjz"
+			}
+		}
+	},
+	"article": {
+		"education": {
+			"zh-CN": "教育经历",
+			"en": "Education",
+			"ug": {
+				"name": "南京工业大学 (本科)",
+				"major": "计算机科学与技术",
+				"time": "2011 ~ 2015"
+			},
+			"master": {
+				"name": "华东师范大学 (硕士)",
+				"major": "软件工程",
+				"time": "2015 ~ 2018"
 			}
 		}
 	}

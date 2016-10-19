@@ -1,0 +1,34 @@
+.container{
+  & article{
+    height 1235px
+    background #fff
+    padding 30px 40px
+    & .education{
+      width 50%
+      & h2{
+        font-size 21px
+        border-bottom 1px dashed #adadad
+        font-weight 700
+        padding-bottom 4px
+        & span{
+          font-size: 16px;
+          color: teal;
+          font-variant: small-caps;
+          font-weight: 700;
+          margin-left 20px
+        }
+      }
+      & ul{
+        padding 5px 10px
+        & li{
+          display flex
+          -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+          justify-content: space-between;
+          font-weight 600
+          line-height 1.5
+        }
+      }
+    }
+  }
+}
