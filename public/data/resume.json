@@ -4,10 +4,10 @@
 		"name": "宋进忠",
 		"job_descript": ["前端工程师","全栈工程师"],
 		"contact": {
-			"tel": " TEL # (+086)18251852781",
+			"tel": " TEL (+086) 18251852781",
 			"email": "songjz.ecnu@gmail.com",
 			"blog": {
-				"name": "BLOG # http://yuren.space",
+				"name": "Blog http://yuren.space",
 				"url": "http://yuren.space/blog"
 			},
 			"weibo": {
@@ -46,7 +46,23 @@
 				"name": "家乡-安徽蚌埠",
 				"born": "出生：1994-04",
 				"now": "现居-上海普陀",
-				"detail": "乐观、积极，在南京读了四年本科，辗转于上海读研，研二就被派到南京实习"
+				"detail": "乐观、积极，在南京读了四年本科，辗转于上海读研，研二又被派到南京实习"
+			}
+		},
+		"experience": {
+			"zh-CN": "实习经验",
+			"en": "Experience",
+			"e1": {
+				"title": "南京 841 研究所",
+				"time": "2016.06 ~ 至今",
+				"head": "Web 安全",
+				"detail": ["研究 Web 安全，复现 Web 漏洞，因签保密协议，具体细节无法告知", "用 Python 开发防火墙系统", "研究 Python 中更高效的使用正则表达式"]
+			},
+			"e2": {
+				"title": "上海域圆信息科技有限公司 ",
+				"time": "2016.03 ~ 2016.06",
+				"head": "Unity 3D 工程师",
+				"detail": ["研究 Web 安全，复现 Web 漏洞，因签保密协议，具体细节无法告知", "用 Python 开发防火墙系统", "研究 Python 中更高效的使用正则表达式"]
 			}
 		}
 	}

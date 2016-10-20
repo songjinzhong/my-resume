@@ -29,4 +29,27 @@
 		</ul>
 	</section>
 	{{/article.personal}}
+	{{#article.experience}}
+	<section class="experience">
+		<h2>{{zh-CN}}<span>{{en}}</span></h2>
+			<div class="item">
+				<h3>{{e1.title}}<span>{{e1.time}}</span></h3>
+				<dl>
+					<dt>{{e1.head}}</dt>
+					{{#each e1.detail}}
+						<dd>{{this}}</dd>
+					{{/each}}
+				</dl>
+			</div>
+			<div class="item">
+				<h3>{{e2.title}}<span>{{e2.time}}</span></h3>
+				<dl>
+					<dt>{{e2.head}}</dt>
+					{{#each e2.detail}}
+						<dd>{{this}}</dd>
+					{{/each}}
+				</dl>
+			</div>
+	</section>
+	{{/article.experience}}
 </article>
