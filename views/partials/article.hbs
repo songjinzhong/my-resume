@@ -52,4 +52,20 @@
 			</div>
 	</section>
 	{{/article.experience}}
+	{{#article.projects}}
+	<section class="projects">
+		<h2>{{zh-CN}}<span>{{en}}</span></h2>
+		{{#each pj}}
+			<div class="item">
+				<h3>{{this.title}}<span><a class="source" href="{{this.source_url}}">{{this.source}}</a><a class="demo" href="{{this.demo_url}}">{{this.demo}}</a></span></h3>
+				<dl>
+					<dt>{{this.head}}</dt>
+					{{#each this.detail}}
+						<dd>{{this}}</dd>
+					{{/each}}
+				</dl>
+			</div>
+		{{/each}}
+	</section>
+	{{/article.projects}}
 </article>

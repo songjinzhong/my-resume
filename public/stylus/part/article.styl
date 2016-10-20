@@ -7,7 +7,7 @@
       display inline-block
       width 49%
     }
-    & .education,& .personal,& .experience{
+    & section{
       & h2{
         font-size 21px
         border-bottom 1px dashed #adadad
@@ -32,19 +32,10 @@
           line-height 24px
         }
       }
-    }
-    & .personal{
-      .detail{
-        font-size 12px
-      }
-    }
-    & .experience{
-      & h2{
-        margin-bottom 10px
-      }
       & .item{
         display inline-block
         width 49%
+        margin-top 10px
         & h3{
           padding: 3px 10px 3px 26px;
           color: #fff;
@@ -55,16 +46,35 @@
           font-weight 600
           & span{
             float right
+            & a{
+              color #333
+              border-radius: 6px;
+              padding: 1px 10px 1px 24px;
+              background-color: #fff;
+              font-size: 14px;
+              margin-left: 10px;
+              text-decoration none
+              transition: all .3s ease-out;
+              &:hover{
+                background-color: rgba(255,255,255,.8);
+              }
+            }
           }
         }
         & dl{
-          padding-left 20px
+          padding-left 10px
+          border-left: 4px solid #333;
           & dt{
             font-size: 18px;
             font-weight: 700;
             margin: 10px 0 5px;
           }
         }
+      }
+    }
+    & .personal{
+      .detail{
+        font-size 12px
       }
     }
   }

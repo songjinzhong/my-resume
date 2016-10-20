@@ -64,6 +64,48 @@
 				"head": "Unity 3D 工程师",
 				"detail": ["研究 Web 安全，复现 Web 漏洞，因签保密协议，具体细节无法告知", "用 Python 开发防火墙系统", "研究 Python 中更高效的使用正则表达式"]
 			}
+		},
+		"projects": {
+			"zh-CN": "全部项目",
+			"en": "Projects",
+			"pj": {
+				"p1": {
+					"title": "个人博客",
+					"source": "项目地址",
+					"source_url": "https://github.com/songjinzhong/yuren.space",
+					"demo": "Demo",
+					"demo_url": "http://yuren.space",
+					"head": "个人技术博客",
+					"detail": ["我自己设计的 Hexo 静态博客，托管在 Coding.net，目前仍在维护","本站所有内容样式均有本人独立完成，历时两周","遇到的难点还是对 Hexo 的使用，在熟悉的基础上手动改造 RSS、搜索插件"]
+				},
+				"p2": {
+					"title": "个人博客",
+					"source": "项目地址",
+					"source_url": "https://github.com/songjinzhong/yuren.space",
+					"demo": "Demo",
+					"demo_url": "http://yuren.space",
+					"head": "个人技术博客",
+					"detail": ["我自己设计的 Hexo 静态博客，托管在 Coding.net，目前仍在维护","本站所有内容样式均有本人独立完成，历时两周","遇到的难点还是对 Hexo 的使用，在熟悉的基础上手动改造 RSS、搜索插件"]
+				},
+				"p3": {
+					"title": "个人博客",
+					"source": "项目地址",
+					"source_url": "https://github.com/songjinzhong/yuren.space",
+					"demo": "Demo",
+					"demo_url": "http://yuren.space",
+					"head": "个人技术博客",
+					"detail": ["我自己设计的 Hexo 静态博客，托管在 Coding.net，目前仍在维护","本站所有内容样式均有本人独立完成，历时两周","遇到的难点还是对 Hexo 的使用，在熟悉的基础上手动改造 RSS、搜索插件"]
+				},
+				"p4": {
+					"title": "个人博客",
+					"source": "项目地址",
+					"source_url": "https://github.com/songjinzhong/yuren.space",
+					"demo": "Demo",
+					"demo_url": "http://yuren.space",
+					"head": "个人技术博客",
+					"detail": ["我自己设计的 Hexo 静态博客，托管在 Coding.net，目前仍在维护","本站所有内容样式均有本人独立完成，历时两周","遇到的难点还是对 Hexo 的使用，在熟悉的基础上手动改造 RSS、搜索插件"]
+				}
+			}
 		}
 	}
 }
