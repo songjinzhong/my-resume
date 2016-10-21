@@ -68,4 +68,22 @@
 		{{/each}}
 	</section>
 	{{/article.projects}}
+	{{#article.skills}}
+	<section class="skills">
+		<h2>{{zh-CN}}<span>{{en}}</span></h2>
+		{{#each ss}}
+			<div class="item">
+				<h3>{{this.title}}</h3>
+				<dl>
+					{{#each this.details}}
+						<dt>{{this.title}}</dt>
+						{{#each this.all}}
+							<dd>{{this}}</dd>
+						{{/each}}
+					{{/each}}
+				</dl>
+			</div>
+		{{/each}}
+	</section>
+	{{/article.skills}}
 </article>

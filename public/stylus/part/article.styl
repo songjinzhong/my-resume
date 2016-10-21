@@ -2,18 +2,15 @@
   & article{
     height 1235px
     background #fff
-    padding 30px 40px
-    & .education,& .personal{
-      display inline-block
-      width 49%
-    }
+    padding 20px 40px
     & section{
+      margin-bottom 20px
+      vertical-align top
       & h2{
         font-size 21px
-        border-bottom 1px dashed #adadad
         font-weight 700
+        border-bottom 2px solid black
         padding-bottom 4px
-        width 98%
         & span{
           font-size: 16px;
           color: teal;
@@ -36,6 +33,7 @@
         display inline-block
         width 49%
         margin-top 10px
+        vertical-align: top;
         & h3{
           padding: 3px 10px 3px 26px;
           color: #fff;
@@ -71,6 +69,12 @@
           }
         }
       }
+    }
+    & .education,& .personal{
+      display inline-block
+      width 49%
+      padding 5px
+      border 1px dashed #dadada
     }
     & .personal{
       .detail{
