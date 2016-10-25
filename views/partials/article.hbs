@@ -1,7 +1,7 @@
 <article>
 	{{#article.education}}
 	<section class="education">
-		<h2>{{zh-CN}}<span>{{en}}</span></h2>
+		<h2 class="icon edu">{{zh-CN}}<span>{{en}}</span></h2>
 		<ul>
 			<li>
 				<span>{{ug.name}}</span>
@@ -18,7 +18,7 @@
 	{{/article.education}}
 	{{#article.personal}}
 	<section class="personal">
-		<h2>{{zh-CN}}<span>{{en}}</span></h2>
+		<h2 class="icon per">{{zh-CN}}<span>{{en}}</span></h2>
 		<ul>
 			<li>
 				<span>{{home.name}}</span>
@@ -31,9 +31,9 @@
 	{{/article.personal}}
 	{{#article.experience}}
 	<section class="experience">
-		<h2>{{zh-CN}}<span>{{en}}</span></h2>
+		<h2 class="icon exp">{{zh-CN}}<span>{{en}}</span></h2>
 			<div class="item">
-				<h3>{{e1.title}}<span>{{e1.time}}</span></h3>
+				<h3 class="icon com">{{e1.title}}<span>{{e1.time}}</span></h3>
 				<dl>
 					<dt>{{e1.head}}</dt>
 					{{#each e1.detail}}
@@ -42,7 +42,7 @@
 				</dl>
 			</div>
 			<div class="item">
-				<h3>{{e2.title}}<span>{{e2.time}}</span></h3>
+				<h3 class="icon com">{{e2.title}}<span>{{e2.time}}</span></h3>
 				<dl>
 					<dt>{{e2.head}}</dt>
 					{{#each e2.detail}}
@@ -54,10 +54,10 @@
 	{{/article.experience}}
 	{{#article.projects}}
 	<section class="projects">
-		<h2>{{zh-CN}}<span>{{en}}</span></h2>
+		<h2 class="icon pro">{{zh-CN}}<span>{{en}}</span></h2>
 		{{#each pj}}
 			<div class="item">
-				<h3>{{this.title}}<span><a class="source" href="{{this.source_url}}">{{this.source}}</a><a class="demo" href="{{this.demo_url}}">{{this.demo}}</a></span></h3>
+				<h3 class="icon pro-s">{{this.title}}<span><a class="source icon link" href="{{this.source_url}}">{{this.source}}</a><a class="demo icon link" href="{{this.demo_url}}">{{this.demo}}</a></span></h3>
 				<dl>
 					<dt>{{this.head}}</dt>
 					{{#each this.detail}}
@@ -70,10 +70,10 @@
 	{{/article.projects}}
 	{{#article.skills}}
 	<section class="skills">
-		<h2>{{zh-CN}}<span>{{en}}</span></h2>
+		<h2 class="icon ski">{{zh-CN}}<span>{{en}}</span></h2>
 		{{#each ss}}
 			<div class="item">
-				<h3>{{this.title}}</h3>
+				<h3 class="icon ski-s">{{this.title}}</h3>
 				<dl>
 					{{#each this.details}}
 						<dt>{{this.title}}</dt>
