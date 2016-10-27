@@ -57,7 +57,7 @@
 		<h2 class="icon pro">{{zh-CN}}<span>{{en}}</span></h2>
 		{{#each pj}}
 			<div class="item">
-				<h3 class="icon pro-s">{{this.title}}<span><a class="source icon link" href="{{this.source_url}}">{{this.source}}</a><a class="demo icon link" href="{{this.demo_url}}">{{this.demo}}</a></span></h3>
+				<h3 class="icon pro-s">{{this.title}}<span><a class="source icon link {{render this}}" href="{{this.source_url}}">{{this.source}}</a><a class="demo icon link {{renderd this}}" href="{{this.demo_url}}">{{this.demo}}</a></span></h3>
 				<dl>
 					<dt>{{this.head}}</dt>
 					{{#each this.detail}}

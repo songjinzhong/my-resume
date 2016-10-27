@@ -65,6 +65,18 @@ gulp.task('hbs',function(){
             helpers : {
                 descript : function(list){
                     return list.join("/");
+                },
+                render: function(obj){
+                    if(obj.source && obj.source_url){
+                        return ''
+                    }
+                    return 'none'
+                },
+                renderd: function(obj){
+                    if(obj.demo && obj.demo_url){
+                        return ''
+                    }
+                    return 'none'
                 }
             }
         };
