@@ -1,0 +1,112 @@
+@media screen and (max-width: 1000px){
+  .container{
+    min-width 340px
+    width 100%
+    margin 0 auto
+    & article{
+      height auto
+    }
+  }
+}
+@media screen and (max-width: 900px){
+  .container{
+    & header{
+      padding 20px 15px
+      & .top .title h1{
+        font-size 50px
+      }
+      & .top .title h2{
+        font-size 20px
+      }
+      & .top .contact ul li{
+        font-size 18px
+      }
+      & .bottom ul li{
+        font-size 18px
+      }
+    }
+  }
+}
+@media screen and (max-width:740px){
+  .container{
+    & header{
+      text-align center
+      & ul li{
+        line-height 1.5
+      }
+      & .top{
+        border-bottom none
+        & .title{
+          float none
+          & h1,h2{
+            display block
+          }
+        }
+        & .contact{
+          float none
+          & ul{
+            text-align center
+          }
+        }
+      }
+      & .bottom{
+        & ul{
+          display block
+          & li{
+            line-height 1.5
+          }
+        }
+      }
+    }
+  }
+}
+/*
+article here
+*/
+@media screen and (max-width:1000px){
+  .container article{
+    & .education,.personal{
+      width 70%
+      display block
+      margin 20px auto
+    }
+  }
+}
+@media screen and (max-width:850px){
+  .container article{
+    & .education,.personal{
+      width 90%
+    }
+  }
+  .container article{
+    & section{
+      & .item{
+        display block
+        width 90%
+        margin 10px auto
+      }
+    }
+  }
+}
+@media screen and (max-width:700px){
+  .container{
+    & article{
+      padding 10px
+    }
+  }
+}
+@media screen and (max-width: 500px){
+  .container{
+    & article{
+      .education,.personal{
+        ul li{
+          display block
+          margin 8px 0
+          & span{
+            margin 0 5px
+          }
+        }
+      }
+    }
+  }
+}
