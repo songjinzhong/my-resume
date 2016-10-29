@@ -1,0 +1,32 @@
+#aside{
+  position fixed
+  left 0
+  z-index 100
+  top 50%
+  transform translate(-50%, -50%)
+  transition: all .3s ease-out;
+  text-align right
+  &:hover{
+    transform translate(10px, -50%)
+    text-align center
+  }
+  & ul{
+    & li{
+      margin 5px 0
+      background-color rgba(0,0,0,0.8)
+      border-radius 0 5px 5px 0
+      transition: all .3s ease-out;
+      &:hover{
+        background-color rgba(0,0,0,.6)
+      }
+      & a{
+        color white
+        display inline-block
+        padding 10px
+        font-size 16px
+        text-decoration none
+        width 100%
+      }
+    }
+  }
+}
