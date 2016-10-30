@@ -88,22 +88,22 @@
 					"detail": ["1. 学习百度 IFE 前端技术学院春季班课程，并独立完成其中的大部分任务任务(部分任务多人)", "2. 纸上得来终觉浅，绝知此事要躬行，做了才知道哪里不足", "3. 循序渐进、由浅入深地在实践中掌握技术，作为团队一员，总结、分享、交流对学习效率与效果的提升非常明显"]
 				},
 				"p3": {
-					"title": "个人博客",
+					"title": "Online Pcap Analyzer",
 					"source": "项目地址",
-					"source_url": "https://github.com/songjinzhong/yuren.space",
+					"source_url": "https://github.com/Baoyx007/pcap-analyzer",
 					"demo": "Demo",
-					"demo_url": "http://yuren.space",
-					"head": "个人技术博客",
-					"detail": ["我自己设计的 Hexo 静态博客，托管在 Coding.net，目前仍在维护","本站所有内容样式均有本人独立完成，历时两周","遇到的难点还是对 Hexo 的使用，在熟悉的基础上手动改造 RSS、搜索插件"]
+					"demo_url": "https://github.com/Baoyx007/pcap-analyzer",
+					"head": "实验室项目",
+					"detail": ["1. Online Pcap Analyzer 是一款基于网页的 pcap 数据包分析工具，是实验室的一个项目，我主要负责前端界面和交互","2. 利用 Ajax 与后台服务器进行数据交互","3. 使用开源的 JQuery 和 Semantic UI 搭建前端界面，后台使用 Flask 框架，利用 Chartkick 搭建图表"]
 				},
 				"p4": {
-					"title": "个人博客",
+					"title": "其他项目",
 					"source": "项目地址",
-					"source_url": "https://github.com/songjinzhong/yuren.space",
+					"source_url": "https://github.com/songjinzhong?tab=repositories",
 					"demo": "Demo",
-					"demo_url": "http://yuren.space",
-					"head": "个人技术博客",
-					"detail": ["我自己设计的 Hexo 静态博客，托管在 Coding.net，目前仍在维护","本站所有内容样式均有本人独立完成，历时两周","遇到的难点还是对 Hexo 的使用，在熟悉的基础上手动改造 RSS、搜索插件"]
+					"demo_url": "https://github.com/songjinzhong?tab=repositories",
+					"head": "1. 基于 HTML 的个人简历，漂亮、简洁可生成 PDF",
+					"detail": ["2. 分析 JQuery 源码，并用原生 JS 来实现大部分函数","3. 基于 Ghost + Express 的动态博客(旧博)，自己修改的主题","4. 维护域圆信息科技公司的主页，实现手机端自适应","5. 分析 CodeWars 上面一些经典的 JS 题目，并作笔记","6. 用开源的 Google CardBoard 实现一个 Unity 应用"]
 				}
 			}
 		},
