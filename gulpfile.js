@@ -77,6 +77,9 @@ gulp.task('hbs',function(){
                         return ''
                     }
                     return 'none'
+                },
+                strong: function(str){
+                    return str.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/`(.+?)`/g, '<strong>$1</strong>');
                 }
             }
         };

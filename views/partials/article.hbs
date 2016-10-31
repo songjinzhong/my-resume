@@ -76,9 +76,9 @@
 				<h3 class="icon ski-s">{{this.title}}</h3>
 				<dl>
 					{{#each this.details}}
-						<dt>{{this.title}}</dt>
+						<dt>{{{strong this.title}}}</dt>
 						{{#each this.all}}
-							<dd>{{this}}</dd>
+							<dd>{{{strong this}}}</dd>
 						{{/each}}
 					{{/each}}
 				</dl>
