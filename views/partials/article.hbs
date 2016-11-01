@@ -32,24 +32,17 @@
 	{{#article.experience}}
 	<section class="experience">
 		<h2 class="icon exp">{{zh-CN}}<span>{{en}}</span></h2>
+			{{#each e}}
 			<div class="item">
-				<h3 class="icon com">{{e1.title}}<span>{{e1.time}}</span></h3>
+				<h3 class="icon com">{{this.title}}<span>{{this.time}}</span></h3>
 				<dl>
-					<dt>{{e1.head}}</dt>
-					{{#each e1.detail}}
-						<dd>{{this}}</dd>
+					<dt>{{{strong this.head}}}</dt>
+					{{#each this.detail}}
+						<dd>{{{strong this}}}</dd>
 					{{/each}}
 				</dl>
 			</div>
-			<div class="item">
-				<h3 class="icon com">{{e2.title}}<span>{{e2.time}}</span></h3>
-				<dl>
-					<dt>{{e2.head}}</dt>
-					{{#each e2.detail}}
-						<dd>{{this}}</dd>
-					{{/each}}
-				</dl>
-			</div>
+			{{/each}}
 	</section>
 	{{/article.experience}}
 	{{#article.projects}}
