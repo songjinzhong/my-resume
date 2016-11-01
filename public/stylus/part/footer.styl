@@ -1,0 +1,23 @@
+.footer{
+  text-align center
+  margin 30px 10px
+  font-size 20px
+  font-weight 700
+  & span{
+    padding 10px
+    & a{
+      color teal
+      text-decoration none
+      &:hover{
+        color black
+        text-decoration underline
+      }
+    }
+  }
+  @media screen and (max-width:1000px){
+    font-size 16px;
+  }
+  @media screen and (max-width:750px){
+    font-size 14px;
+  }
+}
