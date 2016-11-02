@@ -36,7 +36,7 @@
 			<div class="item">
 				<h3 class="icon com">{{this.title}}<span>{{this.time}}</span></h3>
 				<dl>
-					<dt>{{{strong this.head}}}</dt>
+					<dt class="icon exp-head">{{{strong this.head}}}</dt>
 					{{#each this.detail}}
 						<dd>{{{strong this}}}</dd>
 					{{/each}}
@@ -52,7 +52,7 @@
 			<div class="item">
 				<h3 class="icon pro-s">{{this.title}}<span><a class="source icon link {{render this}}" href="{{this.source_url}}">{{this.source}}</a><a class="demo icon link {{renderd this}}" href="{{this.demo_url}}">{{this.demo}}</a></span></h3>
 				<dl>
-					<dt>{{{strong this.head}}}</dt>
+					<dt class="icon pro-head{{{returnNone head}}}">{{{strong this.head}}}</dt>
 					{{#each this.detail}}
 						<dd>{{{strong this}}}</dd>
 					{{/each}}
@@ -69,7 +69,7 @@
 				<h3 class="icon ski-s">{{this.title}}</h3>
 				<dl>
 					{{#each this.details}}
-						<dt>{{{strong this.title}}}</dt>
+						<dt class="icon ski-head">{{{strong this.title}}}</dt>
 						{{#each this.all}}
 							<dd>{{{strong this}}}</dd>
 						{{/each}}

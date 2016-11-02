@@ -1,6 +1,6 @@
 .container{
   & article{
-    height 1235px
+    height auto
     background #fff
     padding 15px 25px 10px 35px
     & strong{
@@ -8,7 +8,7 @@
       padding 0 3px
     }
     & section{
-      margin-bottom 7px
+      margin-bottom 10px
       vertical-align top
       & h2{
         font-size 21px
@@ -92,6 +92,11 @@
       .detail{
         font-size 12px
       }
+    }
+  }
+  & .beforenone{
+    &:before{
+      display none
     }
   }
 }
