@@ -77,8 +77,8 @@
 					"source_url": "https://github.com/songjinzhong/yuren.space",
 					"demo": "Demo",
 					"demo_url": "http://yuren.space",
-					"head": "个人技术博客",
-					"detail": ["1. 我自己设计的 Hexo 静态博客，托管在 Coding.net，从学习 Hexo 的使用到自己设计 CSS，历时两周","2. 发布自己总结的前端技术博客，在这里每一天都在进步","3. 遇到的难点还是对 Hexo 的使用，在熟悉的基础上手动改造 RSS、搜索插件"]
+					"head": "个人`技术博客`",
+					"detail": ["1. 我自己设计的`Hexo`静态博客，托管在 Coding.net，从学习 Hexo 的使用到自己设计`CSS`，历时两周","2. 发布自己总结的`前端技术博客`，在这里每一天都在进步","3. 遇到的难点还是对 Hexo 的使用，在熟悉的基础上手动改造`RSS`、`搜索插件`"]
 				},
 				"p2": {
 					"title": "百度前端技术学院",
@@ -86,8 +86,8 @@
 					"source_url": "https://github.com/songjinzhong/BaiDu_IFE",
 					"demo": "Demo",
 					"demo_url": "https://github.com/songjinzhong/BaiDu_IFE",
-					"head": "前端学习历程",
-					"detail": ["1. 学习百度 IFE 前端技术学院春季班课程，并独立完成其中的大部分任务任务(部分任务多人)", "2. 纸上得来终觉浅，绝知此事要躬行，做了才知道哪里不足", "3. 循序渐进、由浅入深地在实践中掌握技术，作为团队一员，总结、分享、交流对学习效率与效果的提升非常明显"]
+					"head": "`前端学习历程`",
+					"detail": ["1. 学习百度`IFE`前端技术学院春季班课程，并独立完成其中的大部分任务(部分任务多人)", "2. `纸上得来终觉浅，绝知此事要躬行`，做了才知道哪里不足", "3. 循序渐进、由浅入深地在`实践`中掌握技术，作为团队一员，`总结`、`分享`、`交流`对学习效率与效果的提升非常明显"]
 				},
 				"p3": {
 					"title": "Online Pcap Analyzer",
@@ -95,8 +95,8 @@
 					"source_url": "https://github.com/Baoyx007/pcap-analyzer",
 					"demo": "Demo",
 					"demo_url": "https://github.com/Baoyx007/pcap-analyzer",
-					"head": "实验室项目",
-					"detail": ["1. Online Pcap Analyzer 是一款基于网页的 pcap 数据包分析工具，是实验室的一个项目，我主要负责前端界面和交互","2. 利用 Ajax 与后台服务器进行数据交互","3. 使用开源的 JQuery 和 Semantic UI 搭建前端界面，后台使用 Flask 框架，利用 Chartkick 搭建图表"]
+					"head": "`实验室项目`",
+					"detail": ["1. `Online Pcap Analyzer`是一款基于网页的`pcap`数据包分析工具，是实验室的一个项目，我主要负责`前端界面`和`交互`","2. 利用`Ajax`与后台服务器进行数据交互","3. 使用开源的`JQuery`和`Semantic UI`搭建前端界面，后台使用`Flask`框架，利用`Chartkick`搭建图表"]
 				},
 				"p4": {
 					"title": "其他项目",
@@ -104,8 +104,7 @@
 					"source_url": "https://github.com/songjinzhong?tab=repositories",
 					"demo": "Demo",
 					"demo_url": "https://github.com/songjinzhong?tab=repositories",
-					"head": "1. 基于 HTML 的个人简历，漂亮、简洁可生成 PDF",
-					"detail": ["2. 分析 JQuery 源码，并用原生 JS 来实现大部分函数","3. 基于 Ghost + Express 的动态博客(旧博)，自己修改的主题","4. 维护域圆信息科技公司的主页，实现手机端自适应","5. 分析 CodeWars 上面一些经典的 JS 题目，并作笔记","6. 用开源的 Google CardBoard 实现一个 Unity 应用"]
+					"detail": ["1. 基于`HTML`的个人简历，漂亮、简洁可生成`PDF`","2. 分析`JQuery`源码，并用`原生 JS`来实现大部分函数","3. 基于`Ghost`+`Express`的动态博客(旧博)，自己修改的主题","4. 维护域圆信息科技公司的`主页`，实现`手机端自适应`","5. 分析`CodeWars`上面一些经典的 JS 题目，并作笔记","6. 用开源的`Google CardBoard`实现一个`Unity3D`应用"]
 				}
 			}
 		},
@@ -138,7 +137,7 @@
 							"all": ["1. 精通`正则表达式`语法，熟悉 Python、JS 中的正则表达式，并能根据实际应用对正则表达式优化(感觉会被面试官虐)", "2. 一年`Python`开发经验(实习)，熟悉 Python 语法，写过简单爬虫脚本等","3. 熟练使用`Linux`，熟悉常用命令，有配置服务器经验","4. 熟练使用`Git`、`Sublime T`、各种IDE，喜欢尝试新工具","5. 熟悉 Web `安全知识`，半年 Web 漏洞研究，熟悉`SQL注入`、`XSS`、常见`WebShell`等","6. 熟练使用`PS`，满足日常图片设计，熟悉 ImageMagick","7. `虚拟现实`开发经验，做过`Unity3D`和`Arduino`的项目","8. 计科出生，拥有`数据结构、组原、网络、操作系统和算法`知识储备，擅长`Debug`、代码调试(不亮家底，都抢不到饭碗)"]
 						},
 						"d2": {
-							"title": "`曾用过`",
+							"title": "`曾经用过`",
 							"all": ["1. 编程语言`C++`、`Java`、`Android`（本科）;`Font Awesome`和`Bootstrap`、`JQuery`、`Semantic UI`、`SVG`等"]
 						}
 					}
