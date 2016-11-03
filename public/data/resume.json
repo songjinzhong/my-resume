@@ -12,6 +12,11 @@
 		"backHome": "返回主页",
 		"backHome_url": "http://yuren.space"
 	},
+	"tongji":{
+		"baidu_tongji": "513bc3e28555252418b03cc8e660bc31",
+		"google_tongji": "UA-85346637-1",
+		"zhanzhang_tongji": "1260592860"
+	},
 	"header": {
 		"name": "宋进忠",
 		"job_descript": ["前端工程师","全栈工程师"],
