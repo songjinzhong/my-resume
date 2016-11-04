@@ -21,7 +21,8 @@ var paths={
     js:'public/js/',
     stylus:'public/stylus/resume.styl',
     hbs:'views/index.hbs',
-    build:'build'
+    build:'build',
+    fonts: 'public/fonts/*'
 }
 
 // 检查脚本
@@ -48,6 +49,11 @@ gulp.task('scripts', function() {
         .pipe(rename({suffix: '.min'}))
         .pipe(uglify())
         .pipe(gulp.dest(paths.js));
+});
+
+gulp.task('fonts', function(){
+    gulp.src(paths.fonts)
+        .pipe(gulp.dest(paths.build + '/fonts'))
 });
 
 //生成 html文件
@@ -104,5 +110,8 @@ gulp.task('watch',function(){
         gulp.watch(["views/*.hbs","views/*/*.hbs","public/data/resume.json"],['hbs']);
 });
 
+//generate
+gulp.task('generate',['jshint','scripts','fonts','stylus','hbs'])
+
 //default
-gulp.task('default',['jshint','scripts','stylus','hbs','watch'])
+gulp.task('default',['jshint','scripts','stylus','fonts','hbs','watch'])

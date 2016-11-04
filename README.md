@@ -8,8 +8,8 @@ Written with Gulp, styl, and Hbs.
 
 1. Run `npm install` to install the dependencies.
 2. Fill your resume data in `public/data/resume.json`.
-3. Run `gulp hbs` to generate the static web page(`build/index.html`).
-4. Run `node bin/index.js` and visit `http://127.0.0.1:3000` , and you vill get what you want.
+3. Run `gulp generate` to generate the static web page(`build/index.html`).
+4. Run `node bin/index.js` and visit `http://127.0.0.1:3000` , and you vill get what you want. Or just open the file `index.html` with browser in `build` directory.
 
 ### Develop
 
