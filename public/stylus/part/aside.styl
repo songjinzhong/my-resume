@@ -4,10 +4,18 @@
   z-index 100
   top 50%
   transform translate(-55%, -50%)
+  -ms-transform:translate(-55%, -50%)   /* IE 9 */
+  -moz-transform:translate(-55%, -50%)  /* Firefox */
+  -webkit-transform:translate(-55%, -50%) /* Safari 和 Chrome */
+  -o-transform:translate(-55%, -50%)  /* Opera */
   transition: all .3s ease-out;
   text-align right
   &:hover{
     transform translate(10px, -50%)
+    -ms-transform:translate(10px, -50%)   /* IE 9 */
+    -moz-transform:translate(10px, -50%)  /* Firefox */
+    -webkit-transform:translate(10px, -50%) /* Safari 和 Chrome */
+    -o-transform:translate(10px, -50%)  /* Opera */
     text-align center
   }
   & ul{
