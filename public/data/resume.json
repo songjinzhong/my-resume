@@ -10,7 +10,7 @@
 		"download": "PDF 下载",
 		"download_url": "个人简历-宋进忠.pdf",
 		"backHome": "返回主页",
-		"backHome_url": "http://yuren.space"
+		"backHome_url": "/"
 	},
 	"tongji":{
 		"baidu_tongji": "513bc3e28555252418b03cc8e660bc31",
@@ -28,11 +28,11 @@
 				"url": "http://yuren.space/blog"
 			},
 			"weibo": {
-				"id": "weibo / SongJinZ",
+				"id": "WeiBo / SongJinZ",
 				"url": "http://weibo.com/songjinz"
 			},
 			"github": {
-				"id": "github / SongJinZhong",
+				"id": "GitHub / SongJinZhong",
 				"url": "https://github.com/songjinzhong"
 			},
 			"sf": {
