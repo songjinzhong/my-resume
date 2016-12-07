@@ -7,7 +7,9 @@
 		<div class="contact">
 			{{#header.contact}}
 				<ul>
-					<li class="icon email">{{email}}</li>
+					<li class="icon email">
+					  <a href="mailto:{{email}}">{{email}}</a>
+					</li>
 					<li class="icon phone">{{tel}}</li>
 					<li class="icon blog">
 						<a href="{{blog.url}}">{{blog.name}}</a>
