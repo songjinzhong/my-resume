@@ -1,5 +1,5 @@
 {
-  "name": "--my-resume",
+  "name": "my-resume",
   "version": "1.0.0",
   "description": "Express+hbs+gulp = resume",
   "main": "bin/index.js",
