@@ -1,14 +1,14 @@
 {
-	"title": "个人简历-宋进忠",
+	"title": "个人简历-宋进忠-前端",
 	"top": {
-		"year": "2016年",
-		"month": "12月"
+		"year": "2017年",
+		"month": "01月"
 	},
 	"aside": {
 		"source": "源代码",
 		"source_url": "https://github.com/songjinzhong/my-resume",
 		"download": "PDF 下载",
-		"download_url": "个人简历-宋进忠.pdf",
+		"download_url": "个人简历-宋进忠-前端.pdf",
 		"backHome": "返回主页",
 		"backHome_url": "/"
 	},
@@ -62,7 +62,7 @@
 			"home": {
 				"name": "家乡-安徽蚌埠",
 				"born": "出生：1994-04",
-				"now": "现居-上海普陀",
+				"now": "现居-江苏南京",
 				"detail": "乐观、积极，做事认真，喜欢编程，学习能力强，喜欢专研，有团队合作精神"
 			}
 		},
@@ -121,7 +121,7 @@
 					"source_url": "https://github.com/songjinzhong?tab=repositories",
 					"demo": "Demo",
 					"demo_url": "http://yuren.space/projects/",
-					"detail": ["1. 基于`HTML`的个人简历，漂亮、简洁可生成`PDF`","2. 分析`JQuery`源码，并用原生`JS`来实现大部分函数","3. 基于`Ghost`+`Express`的动态博客(旧博)，自己修改的主题","4. 维护域圆信息科技公司的主页，实现手机端自适应","5. 分析`CodeWars`上面一些经典的 JS 题目，并作笔记","6. 用开源的`Google CardBoard`实现一个`Unity3D`应用"]
+					"detail": ["1. 基于`HTML`的个人简历，漂亮、简洁可生成`PDF`","2. 分析`JQuery`源码，并用原生`JS`来实现大部分函数","3. 基于`Ghost`+`Express`的动态博客(旧博)，自己修改的主题","4. 维护域圆信息科技公司的主页，实现手机端自适应","5. 学习`React`和`Vue`，并能在 webpack 环境下构建简单 demo","6. 用开源的`Google CardBoard`实现一个`Unity3D`应用"]
 				}
 			}
 		},
@@ -138,11 +138,11 @@
 						},
 						"d2": {
 							"title": "`JavaScript`/`DOM`",
-							"all": ["1. 能够用 JavaScript 编写日常组件，深刻理解 JS 中的函数、闭包、原型等概念，能用原生 JS 操控`DOM`/`BOM`对象", "2. 熟悉并能用原生 JS 实现部分`JQuery`中的函数，能够用`Gulp`改进工作流，了解 WebPack"]
+							"all": ["1. 能够用 JavaScript 编写日常组件，深刻理解 JS 中的函数、闭包、原型等概念，能用原生 JS 操控`DOM`/`BOM`对象", "2. 熟悉并能用原生 JS 实现部分`JQuery`中的函数"]
 						},
 						"d3": {
 							"title": "后端/`NodeJS`",
-							"all":["1. 熟悉`Express`框架，能用中间件搭建简单服务器，能够实现与数据库交互、渲染模板等功能", "2. 能编写和改进`Hexo`的插件，了解`NodeJS`中的异步 IO 和事件驱动，了解`Mocha`单元测试", "3. 了解 Python 中的`Flask`，并能搭建简单的服务器"]
+							"all":["1. 熟悉`Express`框架，能用中间件搭建简单服务器，能够实现与数据库交互、渲染模板等功能", "2. 能编写和改进`Hexo`的插件，了解`NodeJS`中的异步 IO 和事件驱动", "3. 能够用`Gulp`改进工作流，`WebPack`打包文件","4. 了解 Python 中的`Flask`，并能搭建简单的服务器"]
 						}
 					}
 				},
