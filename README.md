@@ -21,4 +21,6 @@ Enjoy the development.
 
 MIT
 
->style reference [https://github.com/joyeecheung/resume](https://github.com/joyeecheung/resume)
+## style reference
+
+>[https://github.com/joyeecheung/resume](https://github.com/joyeecheung/resume)
