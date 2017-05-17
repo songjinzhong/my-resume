@@ -1,163 +1,77 @@
 {
-	"title": "个人简历-宋进忠-前端",
-	"top": {
-		"year": "2017年",
-		"month": "05月"
-	},
-	"aside": {
-		"source": "源代码",
-		"source_url": "https://github.com/songjinzhong/my-resume",
-		"download": "下载 PDF",
-		"download_url": "个人简历-宋进忠-前端.pdf",
-		"backHome": "返回主页",
-		"backHome_url": "/"
-	},
-	"tongji":{
-		"baidu_tongji": "513bc3e28555252418b03cc8e660bc31",
-		"google_tongji": "UA-85346637-1",
-		"zhanzhang_tongji": "1260592860"
-	},
+	"title": "个人简历-吴庭明",
 	"header": {
-		"name": "宋进忠",
-		"job_descript": ["前端工程师","全栈工程师"],
+		"name": "吴庭明",
+		"job_descript": ["Java 工程师"],
 		"contact": {
 			"tel": " TEL (+86) 18251852781",
-			"email": "songjz.ecnu@gmail.com",
-			"blog": {
-				"name": "Blog http://yuren.space",
-				"url": "http://yuren.space/blog/?f=resume"
-			},
-			"weibo": {
-				"id": "WeiBo / SongJinZ",
-				"url": "http://weibo.com/songjinz"
-			},
+			"email": "wutingming@hotmail.com",
 			"github": {
-				"id": "GitHub / SongJinZhong",
-				"url": "https://github.com/songjinzhong"
+				"id": "https://github.com/Hepsilion",
+				"url": "https://github.com/hepsilion"
 			},
-			"sf": {
-				"name": "SegmentFault / SongJZ",
-				"url": "https://segmentfault.com/u/songjz"
-			}
+			"qq": " QQ／微信：2428091608"
 		}
 	},
 	"article": {
+		"skills": {
+			"zh-CN": "专业技能",
+			"en": "Skills",
+			"skill": "Java/C++/C/HTML/CSS/JavaScript、Android、SpringMVC"
+		},
 		"education": {
 			"zh-CN": "教育经历",
 			"en": "Education",
-			"ug": {
-				"name": "南京工业大学 (本科)",
-				"major": "计算机科学与技术",
-				"time": "2011 ~ 2015"
-			},
-			"master": {
-				"name": "华东师范大学 (硕士)",
-				"major": "软件工程",
-				"time": "2015 ~ 2018"
-			}
-		},
-		"personal": {
-			"zh-CN": "个人信息",
-			"en": "Personal",
-			"home": {
-				"name": "家乡-安徽蚌埠",
-				"born": "出生：1994-04",
-				"now": "现居-江苏南京",
-				"detail": "乐观、积极，做事认真，喜欢编程，学习能力强，喜欢专研，有团队合作精神"
-			}
-		},
-		"experience": {
-			"zh-CN": "实习经验",
-			"en": "Experience",
-			"e":{
-				"e1": {
-					"title": "南京 841 研究所",
-					"time": "2016.06 ~ 2017.05",
-					"head": "`Web`安全",
-					"detail": ["1. 研究`Web`安全，复现 Web 漏洞，因签保密协议，具体细节无法告知", "2. 用`Python`开发防火墙系统，检测常见漏洞", "3. 研究 Python 中如何更高效的使用`正则表达式`"]
+			"info": {
+				"ug": {
+					"name": "华东师范大学，软件工程",
+					"sort": "  排名:15/70",
+					"time": "硕士，2015/09 - 2018/07"
 				},
-				"e2": {
-					"title": "上海域圆信息科技有限公司 ",
-					"time": "2016.03 ~ 2016.06",
-					"head": "`Unity 3D`工程师",
-					"detail": ["1. 独立开发虚拟现实自行车系统，`Unity3D`+`Arduino`，软件 + 硬件，旅游 + 运动(毕业论文题材)", "2. `Unity3D`软件开发，用 C# 和 JS 编写日常功能性脚本", "3. 负责公司`网站维护`，实现移动设备自适应"]
+				"master": {
+					"name": "华东师范大学，软件工程",
+					"sort": "绩点:3.43/4.0",
+					"time": "本科，2011/09 - 2015/07"
 				}
 			}
 		},
-		"projects": {
-			"zh-CN": "部分项目",
+		"honor": {
+			"cn": "荣誉",
+			"en": "Honor",
+			"h": {
+				"h1": {
+					"name": "第三届全国高校云计算应用创新大赛华东赛区总决赛三等奖",
+					"time": "2017/03"
+				},
+				"h2": {
+					"name": "华东师范大学优秀学生",
+					"time": "2014/11"
+				}
+			}
+		},
+		"ex": {
+			"cn": "工作经历",
+			"en": "Experience",
+			"e": {
+				"e1": {
+					"name": "`上海惠普有限公司`, 实习",
+					"time": "2014/07 ∼ 2014/12"
+				}
+			}
+		},
+		"pro": {
+			"cn": "项目经历",
 			"en": "Projects",
-			"pj": {
+			"p": {
 				"p1": {
-					"title": "个人博客",
-					"source": "项目地址",
-					"source_url": "https://github.com/songjinzhong/yuren.space",
-					"demo": "Demo",
-					"demo_url": "http://yuren.space/?f=resume",
-					"head": "个人技术博客",
-					"detail": ["1. 我自己设计的`Hexo`静态博客，托管在 Coding.net，从学习 Hexo 的使用到自己设计`CSS`，历时两周","2. 发布自己总结的前端技术博客，在这里每一天都在进步","3. 遇到的难点还是对 Hexo 的使用，在熟悉的基础上手动改造`RSS`、搜索插件"]
+					"name": "虚拟现实自行车",
+					"time": "2016/12 ∼ 2017/01",
+					"info": "本项目使用 Unity3D 实现的虚拟现实应用，包括装配有传感装置 "
 				},
 				"p2": {
-					"title": "百度前端技术学院",
-					"source": "项目地址",
-					"source_url": "https://github.com/songjinzhong/BaiDu_IFE",
-					"demo": "Demo",
-					"demo_url": "https://github.com/songjinzhong/BaiDu_IFE",
-					"head": "前端学习历程",
-					"detail": ["1. 学习百度`IFE`前端技术学院春季班课程，并独立完成其中的大部分任务(部分任务多人)", "2. 纸上得来终觉浅，绝知此事要`躬行`，做了才知道哪里不足", "3. 循序渐进、由浅入深地在实践中掌握技术，作为团队一员，`总结`、`分享`、`交流`对学习效率与效果的提升非常明显"]
-				},
-				"p3": {
-					"title": "Online Pcap Analyzer",
-					"source": "项目地址",
-					"source_url": "https://github.com/Baoyx007/pcap-analyzer",
-					"demo": "Demo",
-					"demo_url": "https://github.com/Baoyx007/pcap-analyzer",
-					"head": "实验室项目",
-					"detail": ["1. `Online Pcap Analyzer`是一款基于网页的 pcap 数据包分析工具，是实验室的一个项目，我主要负责前端界面与数据交互","2. 利用`Ajax`与后台服务器进行数据交互","3. 使用开源的`JQuery`和`Semantic UI`搭建前端界面，后台使用 Flask 框架，利用 Chartkick 搭建图表"]
-				},
-				"p4": {
-					"title": "其他项目",
-					"source": "项目地址",
-					"source_url": "https://github.com/songjinzhong?tab=repositories",
-					"demo": "Demo",
-					"demo_url": "http://yuren.space/projects/?f=resume",
-					"detail": ["1. 基于`HTML`的个人简历，漂亮、简洁可生成`PDF`","2. 分析`JQuery`源码，并用原生`JS`来实现大部分函数","3. 基于`Ghost`+`Express`的动态博客(旧博)，自己修改的主题","4. 维护域圆信息科技公司的主页，实现手机端自适应","5. 学习`React`和`Vue`，并能在 webpack 环境下构建简单 demo","6. 用开源的 Google CardBoard 实现一个 Unity3D 应用"]
-				}
-			}
-		},
-		"skills": {
-			"zh-CN": "全部技能",
-			"en": "Skills",
-			"ss": {
-				"s1": {
-					"title": "前后端技能",
-					"details": {
-						"d1": {
-							"title": "**HTML**/**CSS**",
-							"all": ["1. 能够编写语义化的`HTML`，模块化的`CSS`，实现较复杂的布局，能够独立完成网页设计，熟悉已标准化的 HTML5 / CSS3 新特性，并在项目中使用，喜欢黑科技","2. 熟悉并能够使用`scss`/`stylus`进行日常开发"]
-						},
-						"d2": {
-							"title": "`JavaScript`/`DOM`",
-							"all": ["1. 能够用 JavaScript 编写日常组件，深刻理解 JS 中的函数、闭包、原型等概念，能用原生 JS 操控 DOM / BOM 对象", "2. 熟悉并能用原生 JS 实现部分`JQuery`中的函数"]
-						},
-						"d3": {
-							"title": "后端/`NodeJS`",
-							"all":["1. 熟悉`Express`框架，能用中间件搭建简单服务器，能够实现与数据库交互、渲染模板等功能", "2. 能编写和改进`Hexo`的插件，了解`NodeJS`中的异步 IO 和事件驱动", "3. 能够用`Gulp`改进工作流，`WebPack`打包文件","4. 了解 Python 中的`Flask`，并能搭建简单的服务器"]
-						}
-					}
-				},
-				"s2": {
-					"title": "其他技能",
-					"details": {
-						"d1": {
-							"title": "熟练技能",
-							"all": ["1. 精通正则表达式语法，熟悉`Python`、`JS`中的正则表达式，并能根据实际应用对正则表达式优化(感觉会被面试官虐)", "2. 一年`Python`开发经验(实习)，熟悉 Python 语法，写过简单爬虫脚本等","3. 熟练使用`Linux`，熟悉常用命令，有配置服务器经验","4. 熟练使用`Git`、 Sublime T 、各种IDE，喜欢尝试新工具","5. 熟悉`Web`安全知识，半年 Web 漏洞研究，了解`SQL注入`、`XSS`、`CSRF`、常见`WebShell`等漏洞原理","6. 熟练使用`PS`，满足日常图片设计，了解 ImageMagick ","7. 虚拟现实开发经验，做过`Unity3D`和`Arduino`的项目","8. 计科出身，数据结构、组原、网络、OS、离散、编译和算法等知识储备，擅长`Debug`、调试(不亮家底，都抢不到饭碗)"]
-						},
-						"d2": {
-							"title": "曾经用过",
-							"all": ["1. 编程语言 C++ 、 Java 、 Android （本科） Font Awesome 和 Bootstrap 、 JQuery 、 Semantic UI 、 SVG 等"]
-						}
-					}
+					"name": "手机安全卫士",
+					"time": "2016/10 ∼ 2016/1",
+					"info": "本项目是一个手机安全管理软件"					
 				}
 			}
 		}

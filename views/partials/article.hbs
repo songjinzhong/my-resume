@@ -1,22 +1,5 @@
 <article>
-	{{#article.education}}
-	<section class="education">
-		<h2 class="icon edu">{{zh-CN}}<span>{{en}}</span></h2>
-		<ul>
-			<li>
-				<span>{{master.name}}</span>
-				<span>{{master.major}}</span>
-				<span>{{master.time}}</span>
-			</li>
-			<li>
-				<span>{{ug.name}}</span>
-				<span>{{ug.major}}</span>
-				<span>{{ug.time}}</span>
-			</li>
-		</ul>
-	</section>
-	{{/article.education}}
-	{{#article.personal}}
+{{!-- 	{{#article.personal}}
 	<section class="personal">
 		<h2 class="icon per">{{zh-CN}}<span>{{en}}</span></h2>
 		<ul>
@@ -28,55 +11,72 @@
 			<li class="detail">{{home.detail}}</li>
 		</ul>
 	</section>
-	{{/article.personal}}
-	{{#article.experience}}
-	<section class="experience">
-		<h2 class="icon exp">{{zh-CN}}<span>{{en}}</span></h2>
-			{{#each e}}
-			<div class="item">
-				<h3 class="icon com">{{this.title}}<span>{{this.time}}</span></h3>
-				<dl>
-					<dt class="icon exp-head">{{{strong this.head}}}</dt>
-					{{#each this.detail}}
-						<dd>{{{strong this}}}</dd>
-					{{/each}}
-				</dl>
-			</div>
-			{{/each}}
-	</section>
-	{{/article.experience}}
-	{{#article.projects}}
-	<section class="projects">
-		<h2 class="icon pro">{{zh-CN}}<span>{{en}}</span></h2>
-		{{#each pj}}
-			<div class="item">
-				<h3 class="icon pro-s">{{this.title}}<span><a class="source icon link {{render this}}" href="{{this.source_url}}">{{this.source}}</a><a class="demo icon link {{renderd this}}" href="{{this.demo_url}}">{{this.demo}}</a></span></h3>
-				<dl>
-					<dt class="icon pro-head{{{returnNone head}}}">{{{strong this.head}}}</dt>
-					{{#each this.detail}}
-						<dd>{{{strong this}}}</dd>
-					{{/each}}
-				</dl>
-			</div>
-		{{/each}}
-	</section>
-	{{/article.projects}}
+	{{/article.personal}} --}}
+
 	{{#article.skills}}
 	<section class="skills">
 		<h2 class="icon ski">{{zh-CN}}<span>{{en}}</span></h2>
-		{{#each ss}}
-			<div class="item">
-				<h3 class="icon ski-s">{{this.title}}</h3>
-				<dl>
-					{{#each this.details}}
-						<dt class="icon ski-head">{{{strong this.title}}}</dt>
-						{{#each this.all}}
-							<dd>{{{strong this}}}</dd>
-						{{/each}}
-					{{/each}}
-				</dl>
-			</div>
-		{{/each}}
+		<ul>
+			<li>{{skill}}</li>
+		</ul>
 	</section>
 	{{/article.skills}}
+
+	{{#article.education}}
+	<section class="education">
+		<h2 class="icon edu">{{zh-CN}}<span>{{en}}</span></h2>
+		<ul>
+			{{#each this.info}}
+			<li>
+				<span>{{time}}</span>
+				<span>{{name}}</span>
+				<span>{{sort}}</span>
+			</li>
+			{{/each}}
+		</ul>
+	</section>
+	{{/article.education}}
+
+	{{#article.honor}}
+	<section class="honor">
+		<h2 class="icon exp">{{cn}}<span>{{en}}</span></h2>
+		<ul>
+			{{#each this.h}}
+			<li>
+				<span>{{name}}</span>
+				<span>{{time}}</span>
+			</li>
+			{{/each}}
+		</ul>
+	</section>
+	{{/article.honor}}
+
+	{{#article.ex}}
+	<section class="ex">
+		<h2 class="icon exp">{{cn}}<span>{{en}}</span></h2>
+		<ul>
+			{{#each this.e}}
+			<li>
+				<span>{{name}}</span>
+				<span>{{time}}</span>
+			</li>
+			{{/each}}
+		</ul>
+	</section>
+	{{/article.ex}}
+
+
+	{{#article.pro}}
+	<section class="pro">
+		<h2 class="icon pro">{{cn}}<span>{{en}}</span></h2>
+		<ul>
+			{{#each this.p}}
+			<li>
+				<span>{{name}}</span>
+				<span>{{time}}</span>
+			</li>
+			{{/each}}
+		</ul>
+	</section>
+	{{/article.pro}}
 </article>
