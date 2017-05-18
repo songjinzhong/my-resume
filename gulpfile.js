@@ -86,7 +86,7 @@ gulp.task('hbs',function(){
                 },
                 strong: function(str){
                     if(str)
-                    return str.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/`(.+?)`/g, '<strong>$1</strong>');
+                    return str.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/`(.+?)`/g, '<strong>$1</strong>').replace(/@@(.+?)@@/g, '<span>$1</span>');
                     return ""
                 },
                 returnNone: function(str){

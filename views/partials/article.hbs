@@ -1,36 +1,23 @@
 <article>
-{{!-- 	{{#article.personal}}
-	<section class="personal">
-		<h2 class="icon per">{{zh-CN}}<span>{{en}}</span></h2>
-		<ul>
-			<li>
-				<span>{{home.name}}</span>
-				<span>{{home.born}}</span>
-				<span>{{home.now}}</span>
-			</li>
-			<li class="detail">{{home.detail}}</li>
-		</ul>
-	</section>
-	{{/article.personal}} --}}
 
 	{{#article.skills}}
 	<section class="skills">
-		<h2 class="icon ski">{{zh-CN}}<span>{{en}}</span></h2>
+		<h2 class="icon-a ski-a">{{zh-CN}}<span>{{en}}</span></h2>
 		<ul>
-			<li>{{skill}}</li>
+			<li>{{{strong skill}}}</li>
 		</ul>
 	</section>
 	{{/article.skills}}
 
 	{{#article.education}}
 	<section class="education">
-		<h2 class="icon edu">{{zh-CN}}<span>{{en}}</span></h2>
+		<h2 class="icon-a edu-a">{{zh-CN}}<span>{{en}}</span></h2>
 		<ul>
 			{{#each this.info}}
 			<li>
-				<span>{{time}}</span>
-				<span>{{name}}</span>
-				<span>{{sort}}</span>
+				<span>{{{strong time}}}</span>
+				<span>{{{strong name}}}</span>
+				<span>{{{strong sort}}}</span>
 			</li>
 			{{/each}}
 		</ul>
@@ -39,12 +26,12 @@
 
 	{{#article.honor}}
 	<section class="honor">
-		<h2 class="icon exp">{{cn}}<span>{{en}}</span></h2>
+		<h2 class="icon-a exp-a">{{cn}}<span>{{en}}</span></h2>
 		<ul>
 			{{#each this.h}}
 			<li>
-				<span>{{name}}</span>
-				<span>{{time}}</span>
+				<span>{{{strong name}}}</span>
+				<span>{{{strong time}}}</span>
 			</li>
 			{{/each}}
 		</ul>
@@ -53,12 +40,12 @@
 
 	{{#article.ex}}
 	<section class="ex">
-		<h2 class="icon exp">{{cn}}<span>{{en}}</span></h2>
+		<h2 class="icon-a exp-a">{{cn}}<span>{{en}}</span></h2>
 		<ul>
 			{{#each this.e}}
 			<li>
-				<span>{{name}}</span>
-				<span>{{time}}</span>
+				<span>{{{strong name}}}</span>
+				<span>{{{strong time}}}</span>
 			</li>
 			{{/each}}
 		</ul>
@@ -67,13 +54,14 @@
 
 
 	{{#article.pro}}
-	<section class="pro">
-		<h2 class="icon pro">{{cn}}<span>{{en}}</span></h2>
+	<section class="proj">
+		<h2 class="icon-a pro-a">{{cn}}<span>{{en}}</span></h2>
 		<ul>
 			{{#each this.p}}
 			<li>
-				<span>{{name}}</span>
-				<span>{{time}}</span>
+				<span>{{{strong name}}}</span>
+				<span>{{{strong time}}}</span>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{{strong info}}}</p>
 			</li>
 			{{/each}}
 		</ul>

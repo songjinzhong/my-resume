@@ -4,7 +4,7 @@
   box-shadow: 3px 3px 9px rgba(0,0,0,.2);
   & header{
     overflow hidden
-    padding 30px 40px 15px 40px
+    padding 20px 70px 15px 40px
     background #484848
     color white
     & a{
@@ -12,23 +12,24 @@
       text-decoration none
     }
     & .top{
-      border-bottom 1px solid white
+      border-bottom 3px solid white
       overflow hidden
+      margin-left: 28px;
       & .title{
         float left
         & h1,& h2{
           display inline-block
         }
         & h1{
-          padding 5px 0
+          padding-top 5px
           font-size 72px
-          font-weight bold
+          font-weight 400
         }
         & h2{
           margin 5px 0
           padding 5px 6px
           font-weight 400
-          font-size 24px
+          font-size 35px
         }
       }
       & .contact{
@@ -54,9 +55,10 @@
     & .bottom{
       padding 10px 20px 0px 20px
       & ul{
+        padding-left 10px
         & li{
-          width 48%
-          line-height 1.2
+          width 45%
+          line-height 1.4
           font-size 22px
           text-align left
           display inline-block
@@ -69,6 +71,17 @@
               color #a3d3d1
             }
           }
+        }
+        & li:nth-child(1){
+          width 49%
+        }
+        & li:nth-child(2){
+          width 50%
+        }
+      }
+      & ul:nth-child(2){
+        & li:nth-child(1){
+          // margin-left 30px
         }
       }
     }
