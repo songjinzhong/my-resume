@@ -5,7 +5,9 @@
   "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"start": "gulp && node ./bin/index.js"
+	"start": "npm run server && npm run gulp",
+	"server": "node bin/index.js &",
+	"gulp": "gulp &"
   },
   "keywords": [
     "resume"
